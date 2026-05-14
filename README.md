@@ -2,11 +2,6 @@
 
 > **eLearnSecurity Junior Penetration Tester (eJPT)** - A practical certification on penetration testing and information security essentials, trained via the INE PTSv2 learning path.
 
-<p align="center">
-  <!-- You can adjust the image size by changing the "width" value below -->
-  <img src="assets/eJPT-small.png" alt="eJPT - © eLearnSecurity | INE" width="300">
-</p>
-
 ---
 
 
