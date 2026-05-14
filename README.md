@@ -9,8 +9,6 @@
 
 ---
 
-## 📚 PTSv2 Learning Path
-[🔗 Access the PTSv2 Learning Path on INE](https://my.ine.com/CyberSecurity/learning-paths/61f88d91-79ff-4d8f-af68-873883dbbd8c/penetration-testing-student)
 
 * **Overview:** Covers prerequisite topics introducing information security, programming, and pentesting.
 * **Goal:** Prepares you for the eJPT exam and provides the hands-on skills needed to start a pentesting career at an entry-level position.
