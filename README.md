@@ -1,75 +1,70 @@
+# 🛡️ eJPT - PTSv2 Learning Path & Exam Notes
+
+> **eLearnSecurity Junior Penetration Tester (eJPT)** - A practical certification on penetration testing and information security essentials, trained via the INE PTSv2 learning path.
+
+<p align="center">
+  <!-- You can adjust the image size by changing the "width" value below -->
+  <img src="assets/eJPT-small.png" alt="eJPT - © eLearnSecurity | INE" width="300">
+</p>
+
 ---
-description: >-
-  eLearnSecurity Junior Penetration Tester (eJPT) - a practical certification on
-  penetration testing and information security essentials - training by the INE
-  PTSv2 learning path
+
+## 📚 PTSv2 Learning Path
+[🔗 Access the PTSv2 Learning Path on INE](https://my.ine.com/CyberSecurity/learning-paths/61f88d91-79ff-4d8f-af68-873883dbbd8c/penetration-testing-student)
+
+* **Overview:** Covers prerequisite topics introducing information security, programming, and pentesting.
+* **Goal:** Prepares you for the eJPT exam and provides the hands-on skills needed to start a pentesting career at an entry-level position.
+
+### ⏱️ Course Duration & Topics
+**~ 145 hours total** (*including ~56h of videos*)
+
+**Activities:** 4 Sections | 12 Courses | 229 Videos | 154 Quizzes | 120 Labs
+
+| Section | Estimated Duration | Videos | Notes Link |
+|---------|--------------------|--------|------------|
+| **Assessment Methodologies & Auditing** | ~ 27 hours | 11h | [Section Notes](assessment-methodologies/README.md) |
+| **Host & Network Penetration Testing** | ~ 108 hours | 42h | [Section Notes](hostnetwork-penetration-testing/README.md) |
+| **Web Application Penetration Testing** | ~ 10 hours | 3h | [Section Notes](webapp-penetration-testing/README.md) |
+
 ---
 
-# eJPT - PTSv2
+## 🔗 Useful Links
 
-![eJPT - © eLearnSecurity | INE](assets/eJPT-small.png)
+* 🎓 **Course Location:** Where to find the PTSv2 course? -> [INE Learning Paths](https://my.ine.com/learning-paths)
+* 📜 **Certification Details:** Where to find the eJPT exam? -> [eJPT Official Page](https://security.ine.com/certifications/ejpt-certification/)
+* 🗄️ **Archive:** Since these notes started with my PTSv1 study, I am keeping my [**Penetration Testing Prerequisites** notes here](penetration-testing-prerequisites/README.md) based on the discontinued course.
+* 🔬 **Lab Environment:** For training, I will use the provided INE Labs Environment (included with the `PTSv2 paid course`) and link labs from the [Attack-Defense](https://attackdefense.com/members) platform by PentesterAcademy (`subscription required`).
 
-## [PTSv2 Learning Path](https://my.ine.com/CyberSecurity/learning-paths/61f88d91-79ff-4d8f-af68-873883dbbd8c/penetration-testing-student)
+---
 
-- covers pre-requisite topics introducing information security, programming and pentesting
-- prepares for the eJPT exam & certification
-- provides the skills and practice to start a pentesting career as an entry-level position
+## 🎯 The eJPT Exam
+[🔗 eJPT Exam Information](https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-cert)
 
-### Course duration & Topics
+### 📋 General Requirements
+* ⏳ **Time Limit:** 2 days (**48 hours** of active lab time)
+* ❓ **Questions:** 35
+* 📅 **Expiration Date:** Yes (Valid for 3 years)
+* 🏆 **Passing Score:** Overall score of **at least `70%`** AND meeting the minimum score requirements for each domain below.
 
-~ 145 hours (*`~56h of videos`*)
+### 📊 Exam Objectives & Domain Minimums
 
-Activities: **4** sections , **12** courses , **229** videos, **154** quizzes, **120** labs
+| Exam Domain | Weight | Skills Assessed | Minimum Passing Score |
+|-------------|--------|-----------------|-----------------------|
+| **Assessment Methodologies** | 25% | Evaluate information, vulnerability impact/criticality. Identify open ports and services. | **`90%`** |
+| **Host and Network Auditing** | 25% | Gather hash/password info. Enumerate network information from target files. | **`80%`** |
+| **Host and Network Pen Testing**| 35% | Conduct brute-force password attacks. Exploit targets using Metasploit. | **`70%`** |
+| **Web Application Pen Testing** | 15% | Exploit web app vulnerabilities. Locate hidden files and directories. | **`60%`** |
 
-- [**Assessment Methodologies & Auditing**](assessment-methodologies/README.md) ~ 27 hours (`11h` of videos)
-- [**Host & Network Penetration Testing**](hostnetwork-penetration-testing/README.md) ~ 108 hours (`42h` of videos)
-- [**Web Application Penetration Testing**](webapp-penetration-testing/README.md) ~ 10 hours (`3h` of videos)
+### 💻 Technical Environment
+From a technical perspective, the exam simulates a real-world **Black Box penetration test**:
 
-### Useful links
+* **Reconnaissance:** You are provided with a minimal amount of information about the target network.
+* **Access:** In-browser labs (no VPN required). You have complete, unrestricted access to the lab environment for the entire duration of the exam.
+* **Format:** Flexible, hands-on, and open book. You are tested on your ability to **find the answer**; how you get there is up to you.
+* **Dynamic Flags:** Flags are randomly generated and injected into the lab environment specifically for your session.
 
-- Where to find the PTSv2 (Penetration Testing Student v2) course? - [INE Learning Paths](https://my.ine.com/learning-paths)
-- Where to find the eJPT certification exam? - [eJPT](https://security.ine.com/certifications/ejpt-certification/)
-- As these notes started with my PTS v1 study, I've decided to keep my [**Penetration Testing Prerequisites** notes here](penetration-testing-prerequisites/README.md) based on the (discontinued) PTSv1 course.
-- 🔬 For the **training** part I will use the provided INE Labs Environment (with the `PTSv2 paid course`) and I will link the labs from the [Attack-Defense](https://attackdefense.com/members) platform by PentesterAcademy (`subscription required`)
+> ⚠️ **Must Read Before Starting:**
+> * 📖 [Letter Of Engagement](https://media.graphassets.com/RdsCvab8SvacedNV5k4V)
+> * 📖 [Lab Guidelines](https://media.graphassets.com/26hoOMeZQDyu7QJQlvaJ)
 
-## [eJPT](https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-cert) Exam
-
-- Time limit: 2 days (**48 hours** lab on)
-- Questions: **35**
-- Expiration date: yes (3 years)
-- Objectives:
-  - **Assessment Methodologies Domain (25% of exam):**
-    - Evaluate information and criticality or impact of vulnerabilities
-    - Identify open ports and services on a target
-    - *Exam Score to pass*: at least **`90%`**
-  - **Host and Network Auditing Domain (25% of exam):**
-    - Gather hash/password information from target
-    - Enumerate network information from files on target
-    - *Exam Score to pass*: at least **`80%`**
-  - **Host and Network Pen Testing Domain (35% of exam):**
-    - Conduct brute-force password attacks
-    - Conduct exploitation with Metasploit
-    - *Exam Score to pass*: at least **`70%`**
-  - **Web Application Pen Testing Domain (15% of exam):**
-    - Exploit web app vulnerabilities
-    - Locate hidden files and directories
-    - *Exam Score to pass*: at least **`60%`**
-- *Overall Exam score*: **at least `70%` + above minimum score requirements in each domain section**
-- From a **technical perspective** the exam is set out to simulate a black box penetration test
-
-  - minimal amount of information about the target network
-
-  - in browser labs (no vpn)
-  - a complete unrestricted access to the lab environment for the entire duration of the exam
-  - letter of engagement
-- Flexible structure for the user
-- Hands-on, open book
-- **Dynamic flags**: randomly generated flags injected into the lab environment
-- Testing your ability to **find the answer**. How you do it is up to you.
-
-> 📖 Read the [Letter Of Engagement](https://media.graphassets.com/RdsCvab8SvacedNV5k4V)
->
-> 📖 Read the [Lab Guidelines](https://media.graphassets.com/26hoOMeZQDyu7QJQlvaJ)
-
-------
-
+---
